@@ -8,9 +8,9 @@ for(let i=1;i<=n;i++){
   }
   ab +="\n"
 }
+
+
 console.log(ab);
-
-
 
 
 // // let n=5;
