@@ -1,0 +1,69 @@
+// Var vs let vs Const
+
+
+//var
+// var Firstname="Nitin";
+// console.log(Firstname)
+// var Firstname="Shukla";
+// console.log(Firstname)
+
+// let
+// let Firstname="Nitin";
+// console.log(Firstname)
+// Firstname="Shukla";
+// console.log(Firstname)
+
+
+// const
+// const Firstname="Nitin";
+// console.log(Firstname)
+// Firstname="Shukla";
+// console.log(Firstname)
+
+
+// function biodata(){
+//     let myFirstname="nitin"
+//     console.log(myFirstname);
+//     if(true){
+//         let myLastname="shukla"
+
+//     }
+
+// }
+// console.log(myFirstname);
+// biodata();
+
+
+// var="functionscope"
+// let const="block scope"
+
+
+// Template literals(template strings)
+// javascript program to print the table for given number (8)?.
+// for (num=1 ;num<=10;num++){
+//     let tableof=12;
+//     console.log( ` ${tableof} * ${num}=${tableof * num}`);
+// }
+
+
+
+// default parameters
+// default function parameters allow named parameters to be initialized with dafault value if no value or undefined is passed.
+//  function multi(a,b=3){
+//     return a*b;
+//  }
+//  console.log(multi(3))
+
+
+// Fat Arrow function:-
+// Normal way of writing
+// console.log(sum());
+// function sum (){
+//     let a=5;b=6;
+//     let sum=a+b;
+//  return `the sum of two numbers ${sum}`;
+// }
+
+// Fat arrow function:-
+const sum = () => `sum of the two numbers ${(a=6)+(b=8)}`;
+console.log(sum());
